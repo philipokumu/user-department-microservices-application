@@ -21,6 +21,13 @@ public class User {
     public User() {
     }
 
+    public User(String firstName, String lastName, String email, Long departmentId) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.departmentId = departmentId;
+    }
+
     public User(Long userId, String firstName, String lastName, String email, Long departmentId) {
         this.userId = userId;
         this.firstName = firstName;
